@@ -43,7 +43,13 @@ header{
   padding-left:10px;
   color:#FF9900;
 }
-
+#logo a{
+color:#FF9900;
+text-decoration: none;
+}
+#logo a:hover{
+color:#ffffff;
+}
 /*this is the shopping cart on the home page*/
 #shopping_cart_home_img{
 width:50px;

@@ -1,15 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Nosifer);
-@import url(http://fonts.googleapis.com/css?family=Inika);
-
 .question{
-	background-color:#ffffff;
-	font-family: 'Inika', serif;
-	font-weight: bold;
-	margin-top: 10px;
+  background-color:#ffffff;
+  font-family: 'Inika', serif;
+  font-weight: bold;
 }
 
 .answer{
-	margin-left: 40px;
-	line-height: 25px;
+  margin-left: 40px;
+  line-height: 25px;
 
 }

@@ -1,0 +1,16 @@
+h2 {
+
+}
+
+#about {
+  padding:5px;
+  line-height: 20px;
+  font-style: normal;
+  background-color: white;
+  color: black;
+  padding-left:10px;
+}
+
+p span {
+  font-style: italic;
+}
