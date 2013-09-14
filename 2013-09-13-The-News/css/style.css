@@ -49,3 +49,12 @@ li
 {
  color:#BDBDBD;
 }
+footer
+{
+  background-color:#262626;
+  width:100%;
+  height:20px;
+  box-shadow: 10px 0px 50px #5E5E5E;
+  position:fixed;
+  bottom:0px;
+}
