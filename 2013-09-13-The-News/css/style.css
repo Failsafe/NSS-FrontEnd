@@ -17,22 +17,7 @@ header{
   border-radius: 10px;
   position: relative;
 }
-#logo{
-  width:600px;
-  height:25px;
-  font-size: 40px;
-  font-family: 'Kelly Slab', cursive;
-  padding-top:20px;
-  padding-left:10px;
-  color:#32cd32;
-}
-#logo a{
-color:#32cd32;
-text-decoration: none;
-}
-#logo a:hover{
-color:#ffffff;
-}
+
 #nav
  {
  background-color:#262626;
