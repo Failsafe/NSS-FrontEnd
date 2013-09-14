@@ -41,16 +41,7 @@ nav a:hover{
  font-weight:bold;
  float:left;
 }
-.subtitle
-{
- color:#EDEDED;
- font-family:verdana;
- font-size:15px;
-}
-#navigation
-{
- list-style-type:none;
-}
+
 li
 {
  display:inline;
