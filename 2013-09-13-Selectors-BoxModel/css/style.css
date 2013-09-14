@@ -1,0 +1,42 @@
+body > div
+{
+  width: 960px;
+  margin: auto;
+}
+
+body
+{
+  background: url(../images/tile.jpg);
+  color: white;
+}
+body > div > section:nth-child(1)
+{
+  border-right: 1px dashed red;
+  width: 600px;
+  float: left;
+}
+
+body > div > section:nth-child(1) > p
+{
+  width: 290px;
+  margin: 0px 5px 0px 5px;
+  float: left;
+}
+
+body > div > section:nth-child(2)
+{
+
+  width: 358px;
+  float: left;
+}
+
+body > div > section:nth-child(2) > p
+{
+  width: 320px;
+  margin: 0px 20px 0px 20px;
+}
+
+.clear
+{
+  clear: both;
+}
