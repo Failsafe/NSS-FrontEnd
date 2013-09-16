@@ -16,7 +16,7 @@ html
 nav
  {
  background-color:#262626;
- width:100%;
+ width:1200px;
  height:65px;
  box-shadow: 0px 5px 50px #5E5E5E;
  position:fixed;
@@ -34,7 +34,7 @@ nav a:hover
  font-family: 'Kelly Slab', cursive;
  font-size:50px;
  text-shadow: 3px 5px #5E5E5E;
- width:350px;
+ width:400px;
  margin-top:2px;
  margin-left:15px;
  font-weight:bold;
@@ -75,6 +75,8 @@ body
   font-size:15px;
   font-weight:normal;
   color:white;
+  text-align:center;
+
 
 }
 /*restrict size of content section to only 960 width*/
@@ -205,4 +207,9 @@ footer
   box-shadow: 10px 0px 50px #5E5E5E;
   position:fixed;
   bottom:0px;
+}
+
+#page-wrap {
+     width: px;
+     margin: 0 auto;
 }
