@@ -246,3 +246,9 @@ footer
   color: antiquewhite;
   text-align: inherit;
 }
+
+article > a
+{
+  text-decoration: none;
+  color:white;
+}
