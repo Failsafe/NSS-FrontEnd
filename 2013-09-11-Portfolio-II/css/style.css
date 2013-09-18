@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative);
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+
+
+#logoimg
+{
+  float: left;
+  width: 50px;
+/*  border: 1px dashed red;*/
+}
+#logotxt
+{
+  float: left;
+  width: 600px;
+/*  border: 1px dashed red;*/
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header > div
+{
+  float: left;
+  width: 200px;
+/*  border: 1px dashed red;*/
+}
+
+.clear
+{
+  float: none;
+  clear: both;
+}
+
+header > h1
+{
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 35px;
+}
+
+body
+{
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  background-color: teal;
+
+}
+
+h2
+{
+  font-size: 30px;
+}
+
+ul
+{
+  list-style: inside circle;
+  padding-left: 35px;
+}
+
+section > p
+{
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+section > p:nth-child(2n+1)
+{
+  color: white;
+}
+
+a:hover
+{
+  background-color: red;
+}

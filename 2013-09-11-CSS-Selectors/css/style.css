@@ -1,0 +1,58 @@
+/* This is a comment*/
+/* this
+   is
+   multi-line
+   comment
+*/
+
+/*Selecting by id */
+#div1
+{
+  color: #ff0000;
+  background: ;
+}
+/*selecting by class*/
+.divs
+{
+  background-color: yellow;
+}
+/*selecting by tag*/
+p
+{
+  color:green;
+}
+
+a[href="http://google.com"]
+{
+  background-color: red;
+}
+/*selecting by end using $*/
+a[href$="cnn.com"]
+{
+  background-color: green;
+}
+
+/*selecting by using wild card **/
+a[href*="yahoo"]
+{
+  background-color: blue;
+}
+
+ul > li:nth-child(3) > span:nth-child(2n)
+{
+  font-size: 25px;
+}
+
+a:hover
+  {
+  background-color: white;
+  }
+#span2
+{
+  background-color: green;
+}
+
+span
+{
+  background-color: red;
+}
