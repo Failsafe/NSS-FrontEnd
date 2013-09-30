@@ -1,0 +1,21 @@
+div#content
+{
+  section
+  {
+    h1
+    {
+    @include font_fn($tesla_red, $brand-font, $normal_font_size + 8px, 20px, 5px);
+    }
+
+    h2
+    {
+    @include font_fn(desaturate($tesla_red, 50%), $brand-font, $normal_font_size + 6px, 20px, 3px);
+    }
+
+    p
+    {
+    @include font_fn(#ff0033, $brand-font, 14px, 20px);
+    @include box_fn(5px, 10px, 2px dashed green, 5px 5px 10px black, 15px, blue);
+    }
+  }
+}

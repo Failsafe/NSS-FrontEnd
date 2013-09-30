@@ -1,0 +1,25 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title HAML & SASS Template
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+    .main
+      %header
+        %h1 Movie List
+      %nav
+        %ul
+          %li
+            %a{href: '#'} Jaws
+          %li
+            %a{href: '#'} Titanic
+          %li
+            %a{href: '#'} Lord of the Rings
+      %section
+        = Haml::Engine.new(File.read('_jaws.haml')).render
+        = Haml::Engine.new(File.read('_lotr.haml')).render
+        = Haml::Engine.new(File.read('_titanic.haml')).render
+
+      %footer
