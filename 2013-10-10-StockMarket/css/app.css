@@ -1,0 +1,35 @@
+/*
+Syntax error: Invalid CSS after "}": expected selector or at-rule, was "\"
+        on line 5 of scss/app.scss
+
+1: table
+2: {
+3:   width: 100%;
+4: }
+5: \
+
+Backtrace:
+scss/app.scss:5
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1145:in `expected'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:28:in `parse'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:342:in `_to_tree'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/home/anthony/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"\\"\A         on line 5 of scss/app.scss\A \A 1: table\A 2: {\A 3:   width: 100%;\A 4: }\A 5: \"; }

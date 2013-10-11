@@ -1,0 +1,59 @@
+!!! 5
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+%head
+  %meta{charset: "utf-8"}
+  %meta{name: "viewport", content: "width=device-width"}
+  %title Foundation 4
+  %link{rel: "stylesheet", href: "css/normalize.css"}
+  %link{rel: "stylesheet", href: "css/foundation.css"}
+  %link{rel: "stylesheet", href: "css/app.css"}
+  %script{src: "js/vendor/custom.modernizr.js"}
+%body
+  .row
+    .small-12.columns
+      %h1 Simulated Stock Market
+
+  .row
+    .small-2.columns
+      %input#symbol{type: 'text', autofocus: true, placeholder: 'MSFT'}
+    .small-2.columns
+      %input#quantity{type: 'text', placeholder: '25'}
+    .small-2.columns
+      %input#buy.button.small.radius{type: 'button', value: 'Buy'}
+    .small-6.columns
+  .row
+    .small-2.columns
+      %input#cash{type: 'text', placeholder: '0.00'}
+    .small-2.columns
+      %input#setCash.button.small.radius{type: 'button', value: 'Set Cash'}
+    .small-8.columns
+  .row
+    .small-3.columns
+      %span Cash Balance: $
+      %span#cashBalance 0
+    .small-4.columns
+      %span Stock Balance: $
+      %span#stockBalance 0
+    .small-1.columns
+      %h1
+    .small-2.columns
+      %input#interval{type: 'text', placeholder: '4'}
+    .small-2.columns
+      %input#setInterval.button.small.radius{type: 'button', value: 'Set Refresh Rate'}
+  .row
+    .small-12.columns
+    %h4 Stock List
+    %table
+      %tr#header
+        %th Name
+        %th Symbol
+        %th Quote
+        %th Purchased
+        %th Total
+  %script{src: 'js/vendor/jquery-1.10.2.js'}
+  %script{src: 'js/vendor/foundation.min.js'}
+  %script{src: 'js/vendor/underscore.js'}
+  %script{src: 'js/vendor/moment.min.js'}
+  %script{src: 'https://cdn.firebase.com/v0/firebase.js'}
+  %script{src: 'js/app/app.js'}
