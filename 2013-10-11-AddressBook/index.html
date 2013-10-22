@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset='utf-8'>
+  <meta content='width=device-width' name='viewport'>
+  <title>County Booking</title>
+  <link href='css/normalize.css' rel='stylesheet'>
+  <link href='css/foundation.css' rel='stylesheet'>
+  <link href='css/app.css' rel='stylesheet'>
+  <script src='js/vendor/custom.modernizr.js'></script>
+</head>
+<body>
+  <div class='row' id='header'>
+    <div class='small-12 columns'>
+      <h1>County Booking</h1>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='small-2 columns'>
+      <h5>Name</h5>
+      <input autofocus id='name' placeholder='First Name' type='text'>
+    </div>
+    <div class='small-2 columns'>
+      <h5>Address</h5>
+      <input id='address' placeholder='Street Address' type='text'>
+    </div>
+    <div class='small-2 columns'>
+      <h5>Website</h5>
+      <input id='website' placeholder='http://' type='text'>
+    </div>
+    <div class='small-2 columns'>
+      <h5>Email</h5>
+      <input id='email' placeholder='E-Mail' type='text'>
+    </div>
+    <div class='small-2 columns'>
+      <h5>Photo url</h5>
+      <input id='photo' placeholder='Photo URL' type='text'>
+    </div>
+    <div class='small-2 columns'>
+      <input class='button radius success' id='add' type='button' value="Book'em!">
+    </div>
+  </div>
+  <div class='row'>
+    <div class='small-12 columns'>
+      <h3>Booked</h3>
+      <div id='people'></div>
+    </div>
+  </div>
+  <script src='js/vendor/jquery-1.10.2.js'></script>
+  <script src='js/vendor/foundation.min.js'></script>
+  <script src='js/vendor/underscore.js'></script>
+  <script src='js/vendor/moment.min.js'></script>
+  <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+  <script src='js/app/app.js'></script>
+</body>

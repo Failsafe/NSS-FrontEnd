@@ -1,0 +1,28 @@
+#header > h1 img {
+  float: left; }
+
+#header > img {
+  max-width: 50px; }
+
+.person {
+  float: left;
+  display: block;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+  text-align: center; }
+  .person a {
+    display: block; }
+  .person p {
+    clear: left;
+    margin-bottom: 0; }
+
+.photo {
+  display: block;
+  max-width: 90%;
+  max-height: 50%;
+  margin: 5px auto; }
+
+#add {
+  margin-top: 20px; }

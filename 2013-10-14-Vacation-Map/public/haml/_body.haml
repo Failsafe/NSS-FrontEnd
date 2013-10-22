@@ -1,0 +1,23 @@
+#left
+  #map-canvas
+#right
+  .row
+    .small-12.columns
+      %h3 Vacation Map
+
+  .row
+    .small-6.columns
+      %input#zoom{type: 'text', placeholder: '10'}
+    .small-6.columns
+      %input#set-zoom.button.radius.small{type: 'button', value: 'Set Zoom'}
+  .row
+    .small-6.columns
+      %input#location{type: 'text', placeholder: 'Paris'}
+    .small-6.columns
+      %input#addLocation.button.radius.small.success{type: 'button', value: 'Add Location'}
+  .row
+    .small-6.columns
+      %select#location-select
+        %option Select
+    .small-6.columns
+      %input#go-location.button.radius.small.alert{type: 'button', value: 'Go to Location'}
