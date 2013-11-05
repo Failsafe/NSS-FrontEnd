@@ -1,0 +1,20 @@
+extends ../template/layout
+
+block content
+  .row
+    .small-12.columns
+      table#genres
+        thead
+          tr
+            th Genre
+            th
+            th
+        tbody
+          each genre in genres
+            tr
+              td: a.button.tiny.radius.expand(href='/genres/#{genre.id}')= genre.name
+              td: a.button.tiny.radius(href='/genres/#{genre.id}/edit') Edit
+              td
+                form(action='/genres/#{genre.id}', method='post')
+                  input(type='hidden', name='_method', value='delete')
+                  button.tiny.radius.alert(type='submit') Delete
