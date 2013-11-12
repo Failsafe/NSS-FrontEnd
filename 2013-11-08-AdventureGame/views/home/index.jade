@@ -1,6 +1,13 @@
 extends ../template/layout
+include ../mixins/form-helper
 
 block content
   .row
     .small-12.columns
-      h1 Home Page
+      h1.subheader.hlogo Adventure Game
+  .row
+    .small-12.columns
+      include form
+  .row
+    .small-12.columns
+      #board

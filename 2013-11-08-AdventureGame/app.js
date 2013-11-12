@@ -1,3 +1,5 @@
+require('./models/Game');
+
 // express application
 var home = require('./routes/home');
 var games = require('./routes/games');
@@ -7,9 +9,9 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var less = require('express-less');
-//var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 var app = express();
-//mongoose.connect('mongodb://localhost/adventure-game');
+mongoose.connect('mongodb://localhost/adventure');
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -29,8 +31,8 @@ if ('development' == app.get('env')) {
 }
 
 // route definitions
-app.get('/games', games.index);
-
+app.get('/', home.index);
+app.post('/games/start', games.start);
 // start server
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
